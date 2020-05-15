@@ -1,4 +1,5 @@
-# ITSME - Information Technology Study Material Examples
+# ITSME
+# Information Technology Study Material Examples
 
 As IT workers we all can expect certain questions to pop up during interviews. Not simply "how can you contribute to this company?" or "what's your opinion on your previous employer", but rather questions that are meant to test your knowledge in programming logic, and it is far from uncommon to see programmers with a lot of experience [sic] failing simple tests, such as FizzBuzz.
 
