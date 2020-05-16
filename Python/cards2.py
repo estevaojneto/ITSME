@@ -1,5 +1,6 @@
 #Create a program that randomly distributes "X" cards from a deck (non-repeating)
 #Coded by Estevao Neto
+
 import sys, random
 deck = []
 suits = ["HEARTS", "SPADES", "CLUBS", "DIAMONDS"]
