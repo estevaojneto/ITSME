@@ -1,4 +1,4 @@
-'''Write a Python program for binary search'''
+#Write a Python program for binary search
 import math
 
 def binary_search(haystack, needle):
@@ -12,7 +12,7 @@ def binary_search(haystack, needle):
             r = m-1
         else:
             return m
-    return False;
+    return False
     
 '''As an example, we'll try to find a 3 on this array: it returns the position 
 of the element. '''
