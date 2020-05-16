@@ -10,15 +10,3 @@ I've decided to make a repository with the most common questions you'd expect to
 # The format
 
 Every source file included starts with a common question posed by HR such as "Create a program that counts from x to y (where x > y) and prints whether each number is odd or even". I believe those can be compiled with most C-family compilers out there, but I personally use the latest stable version of GCC, Python and an online JS interpreter, so that's what I use to test.
-
-# Filename-to-question Chart
-C:
-cards.c: "Create a program that randomly distributes "X" cards from a deck"
-fizzbuzz.c: "Make a program that prints numbers from 0 to 1000, prints "fizz" when a number divisible by 3 and "buzz" when a number is divisible by 5"
-oddeven.c: "Create a program that counts from x to y (where x > y) and prints whether each number is odd or even"
-
-Python:
-cards2.py: "Create a program that randomly distributes "X" cards from a deck (non-repeating)"
-
-Javascript:
-TODO
