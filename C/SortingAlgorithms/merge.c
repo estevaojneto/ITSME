@@ -1,8 +1,5 @@
 /******************************************************************************
-This is Bubble Sort.
-Its complexity is n^2 in every case, there is really no advantage to using it
-except in an academic context (it is perhaps the easiest one to understand for
-a freshman student).
+This is Merge Sort.
 *******************************************************************************/
 
 #include <stdio.h>
@@ -23,25 +20,14 @@ void print_array(int *array, int array_size){
     printf("\n");
 }
 
-void bubble_sort(int *array, int array_size){
-    bool sorted = false;
-    int temp, i;
-    while(!sorted){
-        sorted = true;
-        for(i = 0; i<array_size; i++)
-            if(array[i] > array[i+1]){
-                temp = array[i];
-                array[i] = array[i+1];
-                array[i+1] = temp;
-                sorted = false;
-            }
-    }
+void merge_sort(int *array, int array_size){
+    
 }
 
 int main(void) 
 {
     int array_size;
-    printf("BUBBLE SORT\n");
+    printf("MERGE SORT\n");
     printf("Enter array size:");
     scanf("%d", &array_size);
     int array[array_size];
@@ -49,7 +35,7 @@ int main(void)
     
     printf("Original array:");
     print_array(&array[0], array_size);
-    bubble_sort(&array[0], array_size);
+    merge_sort(&array[0], array_size);
     printf("Sorted array:");
     print_array(&array[0], array_size);
     return 0; 
