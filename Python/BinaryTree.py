@@ -18,6 +18,7 @@ options = {
 	"1": "Você escolheu 1",
 	"2": "Você escolheu 3"
 }
+
 while(loop):
 	print("0 - Add Node")
 	print("1 - Delete Node")
