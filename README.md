@@ -5,8 +5,10 @@ As IT workers we all can expect certain questions to pop up during interviews. N
 
 # So what is this about?
 
-I've decided to make a repository with the most common questions you'd expect to hear from the HR department of IT companies. This is quite a pet project that will eventually grow into a lot of code, which can be used for you to study. The code is mostly self-explanatory, although I did include some comments to help clarify certain choices or optimizations.
+I've decided to make a repository with the most common questions you'd expect to hear from the HR department of IT companies. This is quite a pet project that will eventually grow into a lot of code, which can be used for you to study if you're a student, or as a proof of my competency if you're a recruiter ;). The code is mostly self-explanatory, although I did include some comments to help clarify certain choices or optimizations.
 
-# The format
+# Did I do *all* of this?
 
-Every source file included starts with a common question posed by HR such as "Create a program that counts from x to y (where x > y) and prints whether each number is odd or even". I believe those can be compiled with most C-family compilers out there, but I personally use the latest stable version of GCC, Python and an online JS interpreter, so that's what I use to test.
+Pseudocode /was/ looked at as a reference in more complex algorithms, but absolutely *no* code was copied and pasted from the internet at all. This is not what studying is about.
+
+If you like this, don't be ashamed to reach out! My contact information is on my profile.
