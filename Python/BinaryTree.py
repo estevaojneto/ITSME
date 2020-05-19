@@ -11,13 +11,26 @@ class Tree:
 	root = Node(None, None, None)
 	def set_root(self, root):
 		self.root = root
-
+		
+	def add_node(self):
+		val = input("Insert node value for adding:")
+		new_node = Node(val, None, None)
+		if(self.root == None):
+			self.root = new_node
+		else:
+			
+		return
+		
+	def del_node(self, root):
+		val = input("Insert node value for deleting:")
+		print(value)
+		return
+		
+	def tree_rebalance(self):
+		return
+		
 loop = True
-options = {
-	"0": "Você escolheu zero",
-	"1": "Você escolheu 1",
-	"2": "Você escolheu 3"
-}
+tree = Tree()
 
 while(loop):
 	print("0 - Add Node")
@@ -25,7 +38,14 @@ while(loop):
 	print("2 - Print Tree")
 	print("Any - Exit")
 	sel = input("Insert option:")
+	options = {
+	"0": tree.add_node(),
+	"1": "Você escolheu 1",
+	"2": "Você escolheu 3"
+	}
 	try:
-	    result = options[sel]
+	    result = options[int(sel)]
+	except ValueError:
+		loop = False;
 	except KeyError:
 	    loop = False
